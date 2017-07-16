@@ -1,0 +1,2 @@
+2017/7/16 12:54 下午
+1、使用 git clone 命令从远程克隆到本地的项目，当我们使用 git status 命令查看状态的时候，发现没有显示远程 Your branch is up-to-date with 'origin/master'. 这种信息，这是因为我们没有 git push 过，或者在第一次 git push 的时候没有加上 -u 参数，就无法将本地和远程的信息关联起来，第一次 git push 应该加上 -u 参数，以后再 push 的时候可以省略：git push -u origin master 。
